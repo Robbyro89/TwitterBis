@@ -1,0 +1,12 @@
+<div>
+  <h1>Met ton tweet</h1>
+</div>
+<div>
+ <%= form_for(@tweet, method: :post) do |f| %>
+
+      <%= f.label :content %>
+      <%= f.text_field :content %>
+
+      <%= f.submit "Envoyer" %>
+<% end %>
+</div>

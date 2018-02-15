@@ -1,24 +1,10 @@
-# README
+# README TWITTER-BIS
+____
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Meme rangaine, marche en local mais pas avec Heroku...
+Le lien est qd meme la ou cas ou ca fonctionnerait chez vous
+Merci
 
-Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://twiter-bis.herokuapp.com/
