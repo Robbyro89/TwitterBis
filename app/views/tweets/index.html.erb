@@ -1,0 +1,10 @@
+<div>
+  <h1>Twitter</h1>
+  <p>Ecrire et envoyer un tweet</p>
+</div>
+
+  <%= form_for (@tweet, method: :post) do |f| %>
+    <%= f.label :tweet %>
+    <%= f.text_field :content %>
+    <%= f.submit "Envoyer" %>
+  <% end %>
