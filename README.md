@@ -1,9 +1,6 @@
 # README TWITTER-BIS
 ____
-
-Meme rangaine, marche en local mais pas avec Heroku...
-Le lien est qd meme la ou cas ou ca fonctionnerait chez vous
-Merci
+Allleeeez 2 app sur 3 qui fonctionnent et en local et sur heroku !!!!
 
 
 
