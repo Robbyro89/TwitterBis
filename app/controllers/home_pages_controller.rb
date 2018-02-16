@@ -7,11 +7,11 @@ class HomePagesController < ApplicationController
   def create
   	@tweet = Tweet.new
   	if @tweet.save
-  	   SendTweet.new("Bonjour monde!").perform
+  	   SendTweet.new("ca fart les noobs").perform
   	    redirect_to root_path
       else
         render 'home'
       end
   end
-  
+
 end

@@ -13,7 +13,7 @@ class TweetsController < ApplicationController
   	@tweet = Tweet.new(tweet_params)
   	if @tweet.save
     	SendTweet.new(@tweet.content).perform
-    	redirect_to tweets_index_path
+    	redirect_to root_path
     else
       render 'home'
     end

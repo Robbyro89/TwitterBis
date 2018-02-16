@@ -1,0 +1,9 @@
+<h1>Liste des Tweets</h1>
+<p>Ici tous les Tweets</p>
+
+<% @tweets.each do |tweet| %>
+  <div>
+    <p> Tweet #<%= tweet.id %> :</p>
+    <p><%= tweet.content %></p>
+  </div>
+<%end%>
